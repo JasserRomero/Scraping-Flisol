@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 class Prueba():
     def __init__(self, placa):
         self.placa = placa
-        self.proxie = { "https": "http://brd-auth-token:F4p85TcsFzK7AbHfBynjN2hCaJbJ5AGc@pmgr-customer-hl_9b4af93c.brd.superproxy.io:24005" }
+        
 
     def Peticion(self):
         headers = {
